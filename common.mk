@@ -160,10 +160,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    BluetoothQti \
-    com.qualcomm.qti.bluetooth_audio@1.0 \
     liba2dpoffload \
-    libbtconfigstore \
     libbluetooth_qti \
     libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
