@@ -167,8 +167,13 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     libcamera2ndk_vendor \
     libxml2 \
+    GCamGo \
     vendor.oneplus.hardware.camera@1.0.vendor:64 \
     vendor.qti.hardware.camera.device@1.0.vendor:64
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/GCamGo/system/etc/permissions/com.google.android.GCamGo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.GCamGo.xml \
+    $(LOCAL_PATH)/GCamGo/system/etc/configs/hiddenapi-package-whitelist-GCamGo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-whitelist-GCamGo.xml
 
 # Common init scripts
 PRODUCT_PACKAGES += \
