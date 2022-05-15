@@ -321,7 +321,8 @@ PRODUCT_PACKAGES += \
     OnePlusCameraResCommon \
     OPlusFrameworksResCommon \
     OPlusExtrasResCommon \
-    OPlusSystemUIResCommon
+    OPlusSystemUIResCommon \
+    SimpleDeviceConfigCommon
 
 # Oplus-fwk
 PRODUCT_PACKAGES += \
