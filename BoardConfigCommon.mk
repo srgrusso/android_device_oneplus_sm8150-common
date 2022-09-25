@@ -47,6 +47,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-l
 TARGET_KERNEL_SOURCE := kernel/oneplus/sm8150
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
 BOARD_RAMDISK_USE_LZ4 := true
+TARGET_KERNEL_CLANG_VERSION := r416183b1
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
