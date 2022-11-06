@@ -333,6 +333,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libcodec2_hidl@1.0.vendor \
+    libcodec2_soft_common.vendor \
     libcodec2_vndk.vendor \
     libOmxAacEnc \
     libOmxAmrEnc \
