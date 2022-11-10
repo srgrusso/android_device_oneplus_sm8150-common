@@ -147,6 +147,8 @@ include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 include hardware/oplus/sepolicy/qti/SEPolicy.mk
 include $(COMMON_PATH)/sepolicy/SEPolicy.mk
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Touch
 SOONG_CONFIG_NAMESPACES += OPLUS_LINEAGE_TOUCH_HAL
 SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL := INCLUDE_DIR
