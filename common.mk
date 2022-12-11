@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2018-2019 The LineageOS Project
-# Copyright (C) 2022 The Evolution X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -303,9 +302,9 @@ $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
-    EvolutionFrameworksResCommon \
-    EvolutionSettingsProviderResCommon \
-    EvolutionSettingsResCommon \
+    BlissFrameworksResCommon \
+    BlissSettingsProviderResCommon \
+    BlissSettingsResCommon \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
     OPlusExtrasResCommon \

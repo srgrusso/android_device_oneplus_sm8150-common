@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "EvolutionFrameworksResCommon",
+    name: "BlissFrameworksResCommon",
     vendor: true,
 }

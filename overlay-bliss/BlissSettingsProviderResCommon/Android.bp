@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "EvolutionSettingsProviderResCommon",
+    name: "BlissSettingsProviderResCommon",
     device_specific: true,
 }
