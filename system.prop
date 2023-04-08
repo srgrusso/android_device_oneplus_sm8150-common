@@ -1,0 +1,8 @@
+# Camera
+camera.disable_zsl_mode=true
+persist.camera.assert.panic=true
+ro.opcamera.support=true
+
+# Codec
+debug.stagefright.ccodec=1
+

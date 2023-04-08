@@ -221,6 +221,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.oplus.rc \
+    init.opcamera.rc \
     init.oplus_extras.rc \
     init.oplus.sh \
     init.qcom.early_boot.sh \
@@ -304,6 +305,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OPlusExtras \
     tri-state-key-calibrate
+
+# OnePlus Camera
+PRODUCT_PACKAGES += \
+    vendor.oneplus.hardware.camera-V1.0-java \
+    vendor.oneplus.hardware.CameraMDMHIDL-V1.0-java
+
+$(call inherit-product-if-exists, vendor/oneplus/apps/sdm845/config.mk)
 
 # OnePlus Dolby
 PRODUCT_COPY_FILES += \
