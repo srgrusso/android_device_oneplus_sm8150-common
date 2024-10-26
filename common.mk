@@ -373,6 +373,10 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libsqlite.vendor:64
 
+# QTI fwk-detect
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti.vendor:64 # Needed by CNE app
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
