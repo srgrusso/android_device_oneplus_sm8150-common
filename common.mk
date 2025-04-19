@@ -234,6 +234,7 @@ $(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-bliss \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -286,7 +287,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/bliss/interfaces/power-libperfmgr \
     hardware/oplus \
     hardware/qcom-caf/common/libqti-perfd-client
 
